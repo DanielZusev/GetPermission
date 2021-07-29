@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingEnd="25dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:paddingStart="25dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSinglePerm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/single_permission"
+            android:layout_marginTop="25dp"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMultiPerm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/multiple_permissions"
+            android:layout_marginTop="25dp"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOpenSettings"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/open_settings"
+            android:layout_marginTop="25dp"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"
+           />
+    </LinearLayout>
+</RelativeLayout>

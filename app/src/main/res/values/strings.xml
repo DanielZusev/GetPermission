@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PermissionApp</string>
+    <string name="single_permission">Single Permission</string>
+    <string name="multiple_permissions">Multiple Permissions</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="getpermission">GetPermission</string>
+</resources>
